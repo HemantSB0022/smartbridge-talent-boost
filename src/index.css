@@ -9,32 +9,40 @@ All colors MUST be HSL.
 @layer base {
   :root {
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 210 29% 24%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 210 29% 24%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 210 29% 24%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 204 94% 94%;
+    --primary-foreground: 210 29% 24%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 200 100% 96%;
+    --secondary-foreground: 210 29% 24%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 200 50% 98%;
+    --muted-foreground: 210 22% 49%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 200 89% 47%;
+    --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 200 20% 90%;
+    --input: 200 20% 90%;
+    --ring: 200 89% 47%;
+
+    /* Custom Salesforce-inspired colors */
+    --salesforce-blue: 204 94% 94%;
+    --salesforce-blue-dark: 200 89% 47%;
+    --salesforce-accent: 39 100% 57%;
+    --gradient-primary: linear-gradient(135deg, hsl(var(--salesforce-blue-dark)), hsl(var(--salesforce-blue)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--salesforce-blue-dark)) 0%, hsl(var(--salesforce-blue)) 100%);
+    --shadow-elegant: 0 10px 30px -10px hsl(var(--salesforce-blue-dark) / 0.3);
 
     --radius: 0.5rem;
 
